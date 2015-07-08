@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.garyzhu.sensortest.SensorActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/hello_world" />
+    
+    <TextView android:id="@+id/textViewG"
+	    android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+	    android:layout_alignStart="@+id/textView2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+	    android:layout_marginStart="5dp"
+	    android:layout_marginTop="40dp"
+	    android:textSize="24sp"
+	    android:text="@string/gravityNote"  />
+    
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewG"
+        android:layout_alignStart="@+id/textViewG"
+        android:layout_below="@+id/textViewG"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:text="@string/textView" />
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView01"
+        android:layout_alignStart="@+id/textView01"
+        android:layout_below="@+id/textView01"
+        android:layout_marginTop="14dp"
+        android:textSize="24sp"
+        android:text="@string/textView" />
+
+    <TextView
+        android:id="@+id/textView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView02"
+        android:layout_alignStart="@+id/textView02"
+        android:layout_below="@+id/textView02"
+        android:layout_marginTop="14dp"
+        android:textSize="24sp"
+        android:text="@string/textView" />
+
+    <TextView android:id="@+id/textViewM"
+	    android:layout_below="@+id/textView03"
+	    android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+	    android:layout_marginTop="40dp"
+	    android:textSize="24sp"
+	    android:text="@string/orientationNote"  />
+    
+    <TextView
+        android:id="@+id/textView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView03"
+        android:layout_alignStart="@+id/textView03"
+        android:layout_below="@+id/textViewM"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:text="@string/textView" />
+
+    <TextView
+        android:id="@+id/textView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView04"
+        android:layout_alignStart="@+id/textView04"
+        android:layout_below="@+id/textView04"
+        android:layout_marginTop="14dp"
+        android:textSize="24sp"
+        android:text="@string/textView" />
+
+    <TextView
+        android:id="@+id/textView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView05"
+        android:layout_alignStart="@+id/textView05"
+        android:layout_below="@+id/textView05"
+        android:layout_marginTop="14dp"
+        android:textSize="24sp"
+        android:text="@string/textView" />
+
+</RelativeLayout>

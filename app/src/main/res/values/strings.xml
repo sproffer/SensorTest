@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SensorTest</string>
+    <string name="hello_world">Sensor Readings</string>
+    <string name="action_settings">Settings</string>
+    <string name="gravityNote">Gravity, max 10 downwards.</string>
+    <string name="textView">TextView</string>
+    <string name="orientationNote">Orientation:</string>
+
+</resources>
