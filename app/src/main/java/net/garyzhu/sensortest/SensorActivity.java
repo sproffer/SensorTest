@@ -104,7 +104,7 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
 	public void onSensorChanged(SensorEvent event) {
 		synchronized (this) {
 			NumberFormat nf = NumberFormat.getNumberInstance();
-			nf.setMaximumFractionDigits(2); // rough out the precisions
+			nf.setMaximumFractionDigits(4); // rough out the precisions
 	        if (event.sensor == mAccelerometer){
             	System.arraycopy(event.values, 0, mLastAccelerometer, 0, event.values.length);
                 outputX.setText("x: "+ nf.format(mLastAccelerometer[0]));
