@@ -79,6 +79,8 @@
 	    android:layout_below="@+id/textViewM1"
 	    android:layout_alignLeft="@+id/textView2"
         android:layout_alignStart="@+id/textView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
 	    android:layout_marginLeft="2dp"
         android:layout_marginStart="2dp"
 	    android:layout_marginTop="10dp"
