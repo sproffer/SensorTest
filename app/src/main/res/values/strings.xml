@@ -9,11 +9,11 @@
     <string name="orientationNote">Orientation:</string>
     <string name="orientationExplain">
       Azimuth: \n
-        &#160;rotate about z axis, device Y=0 facing magnetic North, 3.1415926 facing South \n
+        &#160;rotate about z axis, 0 Y facing magnetic North, 3.14 facing South \n
 	  Pitch: \n
-        &#160;rotate about x axis, device Y=0 parallel to ground, 3.1415926/2 Y pont to ground \n
+        &#160;rotate about x axis, 0 Y parallel to ground, 3.14/2 to ground \n
 	  Roll: \n
-        &#160;rotate about y axis, device Z=0  Z pointing up, 3.1415926 to ground
+        &#160;rotate about y axis, 0 Z pointing up, 3.1415926 to ground
     </string>
 
 </resources>
