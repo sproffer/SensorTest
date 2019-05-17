@@ -117,9 +117,9 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
             	if (hasAccelerometerSet) {
             		SensorManager.getRotationMatrix(mR, null, mLastAccelerometer, mLastMagnetometer);
                     SensorManager.getOrientation(mR, mOrientation);
-	                outputX2.setText("Azimuth: "+nf.format(mOrientation[0]) + "  (rotate about z axis, device Y=0 facing magnetic North, 3.1415926 facing South)");
-	                outputY2.setText("Pitch: "+nf.format(mOrientation[1]) + "  (rotate about x axis, device Y=0 parallel to ground, 3.1415926/2 Y pont to ground)");
-	                outputZ2.setText("Roll: "+nf.format(mOrientation[2]) + "  (rotate about y axis, device Z=0  Z pointing up, 3.1415926 to ground) ");
+	                outputX2.setText("Azimuth: "+nf.format(mOrientation[0]) );
+	                outputY2.setText("Pitch: "+nf.format(mOrientation[1]) );
+	                outputZ2.setText("Roll: "+nf.format(mOrientation[2]) );
             	}
 	        } else {
 	            Log.d("sensor", "got other sensor event " + event.sensor.getType());
