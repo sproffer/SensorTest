@@ -107,9 +107,9 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
 			nf.setMaximumFractionDigits(4); // rough out the precisions
 	        if (event.sensor == mAccelerometer){
             	System.arraycopy(event.values, 0, mLastAccelerometer, 0, event.values.length);
-                outputX.setText("x: "+ nf.format(mLastAccelerometer[0]));
-                outputY.setText("y: "+ nf.format(mLastAccelerometer[1]));
-                outputZ.setText("z: "+nf.format(mLastAccelerometer[2]));
+                outputX.setText("X axis: "+ nf.format(mLastAccelerometer[0]));
+                outputY.setText("Y axis: "+ nf.format(mLastAccelerometer[1]));
+                outputZ.setText("Z axis: "+nf.format(mLastAccelerometer[2]));
                 hasAccelerometerSet = true;
 	        }
 	        else if (event.sensor == mMagnetometer) {
@@ -117,9 +117,9 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
             	if (hasAccelerometerSet) {
             		SensorManager.getRotationMatrix(mR, null, mLastAccelerometer, mLastMagnetometer);
                     SensorManager.getOrientation(mR, mOrientation);
-	                outputX2.setText("x: "+nf.format(mOrientation[0]));
-	                outputY2.setText("y: "+nf.format(mOrientation[1]));
-	                outputZ2.setText("z: "+nf.format(mOrientation[2]));
+	                outputX2.setText("Azimuth: "+nf.format(mOrientation[0]) + "  (rotae about z axis, device Y=0 facing magnetic North, 3.1415926 facing South)");
+	                outputY2.setText("Pitch: "+nf.format(mOrientation[1]) + "  (rotate about x axis, device Y=0 parallel to ground, 3.1415926/2 Y pont to ground)");
+	                outputZ2.setText("Roll: "+nf.format(mOrientation[2]) + "  (rotate about y axis, device Y=0 parallel to the ground, 3.1415926/2  X point to ground) ");
             	}
 	        } else {
 	            Log.d("sensor", "got other sensor event " + event.sensor.getType());
