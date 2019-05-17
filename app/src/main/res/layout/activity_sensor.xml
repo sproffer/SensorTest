@@ -25,7 +25,7 @@
         android:layout_marginLeft="5dp"
 	    android:layout_marginStart="5dp"
 	    android:layout_marginTop="40dp"
-	    android:textSize="24sp"
+	    android:textSize="20sp"
 	    android:text="@string/gravityNote"  />
     
     <TextView
@@ -37,8 +37,8 @@
         android:layout_below="@+id/textViewG"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
-        android:textSize="24sp"
+        android:layout_marginTop="14dp"
+        android:textSize="20sp"
         android:text="@string/textView" />
 
     <TextView
@@ -48,8 +48,8 @@
         android:layout_alignLeft="@+id/textView01"
         android:layout_alignStart="@+id/textView01"
         android:layout_below="@+id/textView01"
-        android:layout_marginTop="14dp"
-        android:textSize="24sp"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
         android:text="@string/textView" />
 
     <TextView
@@ -59,8 +59,8 @@
         android:layout_alignLeft="@+id/textView02"
         android:layout_alignStart="@+id/textView02"
         android:layout_below="@+id/textView02"
-        android:layout_marginTop="14dp"
-        android:textSize="24sp"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
         android:text="@string/textView" />
 
     <TextView android:id="@+id/textViewM"
@@ -72,7 +72,7 @@
 	    android:layout_marginLeft="5dp"
         android:layout_marginStart="5dp"
 	    android:layout_marginTop="40dp"
-	    android:textSize="24sp"
+	    android:textSize="20sp"
 	    android:text="@string/orientationNote"  />
     
     <TextView
@@ -83,7 +83,7 @@
         android:layout_alignStart="@+id/textView03"
         android:layout_below="@+id/textViewM"
         android:layout_marginTop="20dp"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:text="@string/textView" />
 
     <TextView
@@ -93,8 +93,8 @@
         android:layout_alignLeft="@+id/textView04"
         android:layout_alignStart="@+id/textView04"
         android:layout_below="@+id/textView04"
-        android:layout_marginTop="14dp"
-        android:textSize="24sp"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
         android:text="@string/textView" />
 
     <TextView
@@ -104,8 +104,8 @@
         android:layout_alignLeft="@+id/textView05"
         android:layout_alignStart="@+id/textView05"
         android:layout_below="@+id/textView05"
-        android:layout_marginTop="14dp"
-        android:textSize="24sp"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
         android:text="@string/textView" />
 
 </RelativeLayout>
