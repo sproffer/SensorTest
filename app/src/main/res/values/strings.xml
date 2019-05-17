@@ -9,12 +9,11 @@
     <string name="orientationNote">Orientation (Earth magnetic field):</string>
     <string name="orientationExplain">
       Azimuth: &#160; rotate about Z axis \n
-        &#160;&#160;&#160;&#160;0 Y facing magnetic North, &#227; facing South \n
+        &#160;&#160;&#160;&#160;&#160;&#160;0: Y facing magnetic North, 3.1416: facing South \n
 	  Pitch: &#160;&#160;&#160;&#160;&#160; rotate about X axis \n
-        &#160;&#160;&#160;&#160;0 Y parallel to ground, &#227;/2 to ground \n
-	  Roll: &#160;&#160;&#160;&#160;&#160;&#160; rotate about Y axis \n
-        &#160;&#160;&#160;&#160;0 Z pointing up, &#227; to ground\n
-        &#160;&#160;&#160;( &#227; = 3.14159265358979 )
+        &#160;&#160;&#160;&#160;&#160;&#160;0: Y parallel to ground, 1.5708: to ground \n
+	  Roll: &#160;&#160;&#160;&#160;&#160;&#160;&#160; rotate about Y axis \n
+        &#160;&#160;&#160;&#160;&#160;&#160;0: Z pointing up, 3.1416: to ground
     </string>
 
 </resources>
