@@ -63,7 +63,7 @@
         android:textSize="20sp"
         android:text="@string/textView" />
 
-	<TextView android:id="@+id/textViewG"
+	<TextView android:id="@+id/textViewM1"
 		android:layout_below="@+id/textView03"
 		android:layout_alignLeft="@+id/textView2"
 		android:layout_alignStart="@+id/textView2"
@@ -75,8 +75,8 @@
 		android:textSize="20sp"
 		android:text="@string/orientationNote"  />
 
-    <TextView android:id="@+id/textViewM"
-	    android:layout_below="@+id/textViewG"
+    <TextView android:id="@+id/textViewM2"
+	    android:layout_below="@+id/textViewM1"
 	    android:layout_alignLeft="@+id/textView2"
         android:layout_alignStart="@+id/textView2"
 	    android:layout_marginLeft="2dp"
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView03"
         android:layout_alignStart="@+id/textView03"
-        android:layout_below="@+id/textViewM"
+        android:layout_below="@+id/textViewM2"
         android:layout_marginTop="14dp"
         android:textSize="20sp"
         android:text="@string/textView" />
