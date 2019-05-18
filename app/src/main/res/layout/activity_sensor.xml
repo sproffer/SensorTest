@@ -95,7 +95,7 @@
         android:layout_alignLeft="@+id/textView03"
         android:layout_alignStart="@+id/textView03"
         android:layout_below="@+id/textViewM2"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="18dp"
         android:textSize="20sp"
         android:text="@string/textView" />
 
