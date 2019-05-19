@@ -3,17 +3,19 @@
 
     <string name="app_name">SensorTest</string>
     <string name="hello_world">Sensor Readings</string>
-    <string name="action_settings">Settings</string>
-    <string name="gravityNote">Gravity, max 10 downwards.</string>
+    <string name="action_close">Close</string>
+    <string name="gravityNote">Accelerometer  (Earth gravity):</string>
+    <string name="gravityExplain">Place your phone on a perfectly horizontal surface:\n
+    &#160;&#160;&#160;&#160;&#160;&#160; X = 0; &#160;&#160;  Y = 0; &#160;&#160; Z = 9.80665 &#160; aka 1G</string>
     <string name="textView">TextView</string>
     <string name="orientationNote">Orientation (Earth magnetic field):</string>
     <string name="orientationExplain">
       Azimuth: &#160; rotate about Z axis \n
-        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0: Y facing magnetic North, &#960;: facing South \n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0: Y facing magnetic North, &#960;: facing South \n\n
 	  Pitch: &#160;&#160;&#160;&#160;&#160;&#160; rotate about X axis \n
-        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0: Y parallel to ground, &#960;/2: pointing to ground \n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0: Y parallel to ground, &#960;/2: pointing to ground \n\n
 	  Roll: &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; rotate about Y axis \n
-        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0: Z pointing up, &#960;: pointing to ground \n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0: Z pointing up, &#960;: pointing to ground \n\n
         &#160;&#160;&#160; ( &#960; = 3.14159265358979 )
     </string>
 

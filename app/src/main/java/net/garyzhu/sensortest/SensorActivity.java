@@ -89,7 +89,14 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
-			return true;
+			Log.d("OnSTOP", "Menu Close  called");
+			hasAccelerometerSet = false;
+			sensorManager.unregisterListener(this, mAccelerometer);
+			sensorManager.unregisterListener(this, mMagnetometer);
+
+			this.finish();
+			System.exit(0);
+
 		}
 		return super.onOptionsItemSelected(item);
 	}
