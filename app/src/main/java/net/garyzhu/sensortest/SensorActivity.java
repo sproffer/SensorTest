@@ -2,6 +2,7 @@ package net.garyzhu.sensortest;
 
 import java.text.NumberFormat;
 
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -41,6 +42,7 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_sensor);
+
 		sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 	 
 	    //just some textviews, for data output
@@ -94,9 +96,8 @@ public class SensorActivity extends AppCompatActivity implements SensorEventList
 			sensorManager.unregisterListener(this, mAccelerometer);
 			sensorManager.unregisterListener(this, mMagnetometer);
 
-			this.finish();
-			System.exit(0);
-
+			this.finishAndRemoveTask();
+			return true;
 		}
 		return super.onOptionsItemSelected(item);
 	}
