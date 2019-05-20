@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.garyzhu.sensortest"
     android:versionCode="3"
-    android:versionName="3.1"
+    android:versionName="3.2"
     android:screenOrientation="portrait">
 
     <application
